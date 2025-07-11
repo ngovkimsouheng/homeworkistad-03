@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+    h1 {
+        @apply text-4xl;
+        @apply font-bold;
+    }
+
+    h2 {
+        @apply text-3xl;
+        @apply font-bold;
+    }
+
+    h3 {
+        @apply text-2xl;
+        @apply font-bold;
+    }
+
+    h4 {
+        @apply text-xl;
+        @apply font-semibold;
+    }
+
+    h5 {
+        @apply text-lg;
+        /*or text-lg */
+        @apply font-semibold;
+    }
+
+    h6 {
+        @apply text-sm;
+        @apply font-semibold;
+    }
+}
+
+@theme {
+    --color-primary: #957256;
+    --color-secondary: #F8D797;
+    --color-accent: #F5F5F5;
+    --color-dark:#b00000;
+    --color-background: #F8F3E9;
+}
